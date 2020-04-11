@@ -18,6 +18,7 @@ body {
 a {
   text-decoration: none;
   color: #1ca9e3;
+  font-family: "impact";
 }
 
 img,
@@ -244,9 +245,10 @@ li {
 }
 
 .card-caption-title {
-  font-size: 12px;
+  font-size: 20px;
   font-weight: bold;
   margin-top: 8px;
+  font-family: "Open sans", sans-serif;
 }
 
 .card-caption-info {
@@ -254,7 +256,7 @@ li {
 }
 
 .card-caption-url {
-  font-size: 10px;
+  margin-top: 10px;
 }
 
 .card img.fadein {
@@ -288,29 +290,6 @@ li {
 #works .card:nth-child(3n+1):nth-last-child(-n+3),
 #works .card:nth-child(3n+1):nth-last-child(-n+3)~div {
   margin-bottom: 0;
-}
-
-/*--------------------------------
- FEATURE
----------------------------------*/
-
-#feature .section-body {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-#feature .section-image {
-  flex-basis: 58%;
-}
-
-#feature .section-image img {
-  width: 100%;
-  margin: 0 auto;
-}
-
-#feature .section-desc {
-  flex-basis: 37%;
 }
 
 /*--------------------------------
@@ -429,7 +408,7 @@ li {
 }
 
 #skill .rate7:after {
-  width: 50px;
+  width: 40px;
 }
 
 #skill .rate8:after {
@@ -441,7 +420,8 @@ li {
 }
 
 .section-intro{
-  font-size: 20px;
+  font-size: 35px;
+  font-weight: 900;
 }
 
 /*--------------------------------
@@ -453,7 +433,7 @@ li {
   align-items: flex-end;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 150px;
+  width: 120px;
   margin: 0 auto;
 }
 
@@ -479,6 +459,9 @@ li {
   font-size: 14px;
   margin-top: 10px;
   text-align: center;
+}
+.section-form{
+  font-size: 15px;
 }
 
 /*--------------------------------
